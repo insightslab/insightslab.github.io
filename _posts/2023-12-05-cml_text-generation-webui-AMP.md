@@ -6,7 +6,7 @@ layout: post
 
 
 
-In the ever-evolving landscape of machine learning and artificial intelligence, Cloudera Machine learning platform and Text-Generation-WebUI are combined to create an application that enables users to experiment with text generation features on the Cloudera Machine Learning Platform. This project opens up a world of possibilities for developers, data scientists, and content creators seeking to harness the power of natural language generation on CML platform.
+In the ever-evolving landscape of machine learning and artificial intelligence, the Cloudera Machine Learning platform and Text-Generation-WebUI are combined to create an application that enables users to experiment with text generation features on the Cloudera Machine Learning Platform. This project opens up a world of possibilities for developers, data scientists, and content creators seeking to harness the power of natural language generation on the CML platform.
 
 In this blog post we will describe the following aspects of CML APM, [Text-Generation-WebUI](https://github.com/oobabooga/text-generation-webui#text-generation-web-ui) and how AMP based Text Generation Web UI can be used in your CML environment.
 
@@ -28,12 +28,12 @@ AMPs are designed to be easy to use and customize, even for data scientists who 
 
 Here are some of the benefits of using Cloudera CML AMPs:
 
-- Accelerate time to value: AMPs can help data scientists to deploy ML applications into production much faster than they could if they had to build everything from scratch.
+- Accelerate time to value: AMPs can help data scientists deploy ML applications into production much faster than they could if they had to build everything from scratch.
 - Reduce risk: AMPs are pre-built and tested, so they help to reduce the risk of errors and problems in production.
 - Improve productivity: AMPs free up data scientists to focus on the most important aspects of their work, such as data preparation and model development.
 - Increase collaboration: AMPs can be shared and reused between data scientists, making it easier to collaborate on ML projects.
 
-Cloudera CML AMPs are a powerful tool that can help data scientists to build, deploy, and monitor ML applications faster and more easily.
+Cloudera CML AMPs are a powerful tool that can help data scientists build, deploy, and monitor ML applications faster and more easily.
 
 ##2. What is Text-Generation-WebUI
 
@@ -56,7 +56,7 @@ Here are some examples of how this tool can be used:
 
 Text Gen UI is still under development, but it is already a powerful and versatile tool for interacting with LLMs. It is free to use and open source, and it is available for download on GitHub.
 
-Key features and capabilities of this tool, including:
+Key features and capabilities of this tool, include:
 
 - User-Friendly Interface: Discuss how the tool offers an intuitive and user-friendly web-based interface for interacting with text generation models.
 - Model Selection: Explain how users can select different text generation models, including pre-trained models and custom models.
@@ -90,12 +90,12 @@ Text generation UIs can be used for a variety of purposes, such as:
 Create a CML project :
 
 1) Login to CML
-1) Get the AMP project url from git : [https://github.com/insightslab/cml_text-generation-webui-AMP ](https://github.com/insightslab/cml_text-generation-webui-AMP)// Todo. change to a public github url
-1) Create a new CML project and fill the AMP git url as shown below
+1) Get the AMP project URL from git : [https://github.com/insightslab/cml_text-generation-webui-AMP ](https://github.com/insightslab/cml_text-generation-webui-AMP)// Todo. change to a public GitHub URL
+1) Create a new CML project and fill the AMP git URL as shown below
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.002.jpeg)
 
-4) Click ‘Create Project’ button and it will take around 15 to 20 mins to create the Text Gen UI application. This Application requires atleast 1 GPU , hence ensure to select a **CML workspace with GPU(s)**
+4) Click the ‘Create Project’ button and it will take around 15 to 20 mins to create the Text Gen UI application. This Application requires atleast 1 GPU , hence ensure to select a **CML workspace with GPU(s)**
 4) Once after completion of Application creation, click on the Application Tile from Applications → <Application Name>
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.003.jpeg)
@@ -106,7 +106,7 @@ Create a CML project :
 
 ## 5. How to download and use Machine learning <a name="_page6_x105.75_y98.45"></a>models from external sources
 
-Follow this below steps to download and load a custom model from Hugging Face into a Text Generation UI. Here's a step-by-step guide for this process
+Follow the below steps to download and load a custom model from Hugging Face into a Text Generation UI. Here's a step-by-step guide for this process
 
 1. Switch to the Model Tab:![ref1]
    1. Navigate to the "Model" tab within your Text Generation UI.
@@ -116,7 +116,7 @@ Follow this below steps to download and load a custom model from Hugging Face in
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.007.jpeg)
 
-3. Press Download Button:![ref2]
+3. Press the Download Button:![ref2]
    1. After entering the model path, click the "Download" button.
    1. The application will initiate the download process. Be patient as this may take a couple of minutes, depending on the model size and your internet connection speed.
 3. Refresh Model Lists:![ref2]
@@ -133,15 +133,15 @@ a. From the "Model" dropdown list, select the custom model you just downloaded. 
 
 6. Press Load Button:![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.009.png)
    1. Once you've selected the model, press the "Load" button. This action loads the model into the application.
-6. Switch to the Chat Tab:![ref1]
+6. Switch to the Chat Tab:![ref1](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.005.png)
    1. After successfully loading the model, navigate to the "Chat" tab within the UI. This is where you can interact with the model.
-6. Send Messages to Test the Text Generation Applicatio:![ref2]
+6. Send Messages to Test the Text Generation Application:![ref2](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.005.png)
 1. In the "Chat" tab, you can send messages as prompts to the loaded model.
 1. Start sending messages to test the text generation capabilities. The model will respond based on the prompts you provide.
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.010.jpeg)
 
-By following these steps, you can seamlessly download, load, and test a custom model from Hugging Face in your Text Generation UI. This process enables you to leverage specific language models for various text generation tasks.![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.011.png)
+By following these steps, you can seamlessly download, load, and test a custom model from Hugging Face in your Text Generation UI. This process enables you to leverage specific language models for various text-generation tasks.![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.011.png)
 
 ## 6. How to use REST APIs to access Text <a name="_page8_x105.75_y611.00"></a>Generation features
 
@@ -163,7 +163,7 @@ REST API support on a text generation UI is a powerful feature that can open up 
 
 Here are some of the benefits of using REST API support on a text generation UI:
 
-- Flexibility: REST API support allows developers to interact with the UI in a flexible and powerful way.
+- Flexibility: REST API support allows developers to interact with the UI flexibly and powerfully.
 - Automation: REST API support can be used to automate text generation tasks, saving developers time and effort.
 - Scalability: REST API support allows developers to build scalable text generation applications that can handle large volumes of requests.
 
@@ -173,9 +173,9 @@ Overall, REST API support on a text generation UI is a valuable feature that can
 
 ## 7. How to Train new machine learning models <a name="_page9_x105.75_y627.43"></a>to meet your requirements
 
-The following steps are mandatory inorder for the Training of the Model to take place:
+The following steps are mandatory in order for the Training of the Model to take place:
 
-1. First place the dataset format file in json if you plan to use a specific format for training the model under “training/formats” location. For example here is a sample
+1. First place the dataset format file in JSON if you plan to use a specific format for training the model under the “training/formats” location. For example here is a sample
 
    format:
 ```javascript
@@ -213,29 +213,29 @@ The following steps are mandatory inorder for the Training of the Model to take 
 3. On the application select the “Model” tab and please select the model with which you would like to perform the training on. If you would like to Download a Model of your choice use the “Download custom model or LoRA” option and then download the model.
 4. Once the Model is selected and all the necessary parameters related to the model are tuned, then load the model.
 
-![ref3]
+![ref3](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.012.png)
 
 5. Then navigate to the “Training” Tab and first fill up the name of the Lora you would like the training to be stored as.
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.013.png)
 
 6. If you’d like to modify the parameters of the Training please do as required.
-7. At the end you will see the “Formatted Dataset” Tab, there in “Dataset” box select the input dataset which you have placed in step B.
-7. In the “Evaluation Dataset” Box , you can have the optional Dataset which you would use to evaluate the model after training.
+7. At the end you will see the “Formatted Dataset” Tab, in “Dataset” box select the input dataset that you have placed in step B.
+7. In the “Evaluation Dataset” Box, you can have the optional Dataset which you would use to evaluate the model after training.
 7. In the “Data Format” box select the format of your input DataSet which was inserted in Step A.
-7. Next you have the Advanced settings options which is optional, if you have a certain requirement.
-7. Next click on “Start Lora Training” button.
+7. Next you have the Advanced settings options which are optional if you have a certain requirement.
+7. Next click on the “Start Lora Training” button.
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.014.jpeg)
 
 12. Once the training is complete you can see there is a folder created in “loras” Folder in the project files and you can see the folder name matching to the name given in Step E.
 12. You can then go back to the “Model” tab and on the right side you should see the “Lora(s)” dropdown box. Once you have selected that you should be able to see loras and you should find the lora matching the name on step E.
 
-![ref3]
+![ref3](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.012.png)
 
-14. Now you should be able to use “Chat” using the Lora which was trained.
+14. Now you should be able to use “Chat” using the Lora that was trained.
 
-Note: As of now the training is limited to a particular model “Tap-M/Luna-AI-Llama2-Uncensored”. This works to train model as discussed in [issue](https://github.com/oobabooga/text-generation-webui/issues/3691).
+Note: As of now the training is limited to a particular model “Tap-M/Luna-AI-Llama2-Uncensored”. This works to train the model as discussed in [issue](https://github.com/oobabooga/text-generation-webui/issues/3691).
 
 8. Conclusion
 
