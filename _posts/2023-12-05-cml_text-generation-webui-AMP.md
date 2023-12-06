@@ -8,7 +8,7 @@ layout: post
 
 In the ever-evolving landscape of machine learning and artificial intelligence, the Cloudera Machine Learning platform and Text-Generation-WebUI are combined to create an application that enables users to experiment with text generation features on the Cloudera Machine Learning Platform. This project opens up a world of possibilities for developers, data scientists, and content creators seeking to harness the power of natural language generation on the CML platform.
 
-In this blog post we will describe the following aspects of CML APM, [Text-Generation-WebUI](https://github.com/oobabooga/text-generation-webui#text-generation-web-ui) and how AMP based Text Generation Web UI can be used in your CML environment.
+In this blog post we will describe the following aspects of CML APM, [Text-Generation-WebUI](https://github.com/oobabooga/text-generation-webui#text-generation-web-ui) and how AMP-based Text Generation Web UI can be used in your CML environment.
 
 1. What is Cloudera CML AMP
 1. What is Text-Generation-WebUI
@@ -108,24 +108,24 @@ Create a CML project :
 
 Follow the below steps to download and load a custom model from Hugging Face into a Text Generation UI. Here's a step-by-step guide for this process
 
-1. Switch to the Model Tab:![ref1]
+1. Switch to the Model Tab:![ref1](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.005.png)
    1. Navigate to the "Model" tab within your Text Generation UI.
-1. Enter Hugging Face Username/Model Path:![ref2]
+1. Enter Hugging Face Username/Model Path:![ref2](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.006.png)
 1. Locate the "Download custom model or LoRA" edit box.
 1. Enter the Hugging Face username/model path, for example, "daryl149/llama-2-7b-chat-hf."
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.007.jpeg)
 
-3. Press the Download Button:![ref2]
+3. Press the Download Button:![ref2](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.006.png)
    1. After entering the model path, click the "Download" button.
    1. The application will initiate the download process. Be patient as this may take a couple of minutes, depending on the model size and your internet connection speed.
-3. Refresh Model Lists:![ref2]
+3. Refresh Model Lists:![ref2](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.006.png)
 
 a. After the download is complete, refresh the list of available models. This step ensures that the newly downloaded model is recognized by the UI.
 
 b.
 
-5. Select the Newly Downloaded Model:![ref2]
+5. Select the Newly Downloaded Model:![ref2](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.006.png)
 
 a. From the "Model" dropdown list, select the custom model you just downloaded. It should now be visible among the available models.
 
@@ -175,9 +175,8 @@ Overall, REST API support on a text generation UI is a valuable feature that can
 
 The following steps are mandatory in order for the Training of the Model to take place:
 
-1. First place the dataset format file in JSON if you plan to use a specific format for training the model under the “training/formats” location. For example here is a sample
-
-   format:
+1. First place the dataset format file in JSON if you plan to use a specific format for training the model under the “training/formats” location. For example here is a sample format:
+   
 ```javascript
 {
 
@@ -185,6 +184,7 @@ The following steps are mandatory in order for the Training of the Model to take
 ```
 
 2. Then place the dataset in “training/datasets” which matches the format file you have inserted in the above step. For example the dataset which matches the above example format:
+
 ```javascript
    [
 
@@ -220,7 +220,7 @@ The following steps are mandatory in order for the Training of the Model to take
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.013.png)
 
 6. If you’d like to modify the parameters of the Training please do as required.
-7. At the end you will see the “Formatted Dataset” Tab, in “Dataset” box select the input dataset that you have placed in step B.
+7. At the end you will see the “Formatted Dataset” Tab, in the “Dataset” box select the input dataset that you have placed in step B.
 7. In the “Evaluation Dataset” Box, you can have the optional Dataset which you would use to evaluate the model after training.
 7. In the “Data Format” box select the format of your input DataSet which was inserted in Step A.
 7. Next you have the Advanced settings options which are optional if you have a certain requirement.
@@ -247,11 +247,11 @@ Here are some key takeaways:
 
 **User-Friendly Text Generation**: Text-Generation-WebUI provides a user-friendly interface for working with large language models.
 
-**Versatility and Flexibility**: Text-Generation-WebUI supports a wide range of language models, and its customizable parameters empower you to fine-tune your text generation experience. You can engage with it for a multitude of tasks, from creative writing to chatbot development.
+**Versatility and Flexibility**: Text-Generation-WebUI supports a wide range of language models, and its customizable parameters empower you to fine-tune your text-generation experience. You can engage with it for a multitude of tasks, from creative writing to chatbot development.
 
 **Integration and Automation**: Through REST APIs, you can integrate the UI into your applications, automate text generation tasks, and build custom solutions. This level of flexibility opens up endless opportunities for developers and users.
 
-**Training for Customization**: Training your own machine learning models becomes accessible with clear steps. You can format datasets, select models, tune parameters, and evaluate performance. This customization empowers you to tailor the AI to your specific needs.
+**Training for Customization**: Training your machine learning models becomes accessible with clear steps. You can format datasets, select models, tune parameters, and evaluate performance. This customization empowers you to tailor the AI to your specific needs.
 
 In closing, Cloudera's CML AMP and Text-Generation-WebUI form a powerful partnership that fosters innovation and creativity. This blog has provided a glimpse into the possibilities, and the future holds even more exciting developments.
 
