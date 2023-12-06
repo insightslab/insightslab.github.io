@@ -80,9 +80,8 @@ Text generation UIs can be used for a variety of purposes, such as:
 - Translating languages.
 - Answering questions in a comprehensive and informative way.
 - Creating chatbots.
-![Swiss Alps](https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg)
-![Swiss Alps2](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.001.png)
-![](https://github.com/insightslab/insightslab.github.io/blob/master/_posts/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.001.png)
+
+![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.001.png)
 
 4. How to deploy Text-Generation-WebUI as <a name="_page3_x105.75_y390.73"></a>Cloudera CML AMP
 
@@ -92,16 +91,16 @@ Create a CML project :
 1) Get the AMP project url from git : [https://github.com/insightslab/cml_text-generation-webui-AMP ](https://github.com/insightslab/cml_text-generation-webui-AMP)// Todo. change to a public github url
 1) Create a new CML project and fill the AMP git url as shown below
 
-![](Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.002.jpeg)
+![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.002.jpeg)
 
 4) Click ‘Create Project’ button and it will take around 15 to 20 mins to create the Text Gen UI application. This Application requires atleast 1 GPU , hence ensure to select a **CML workspace with GPU(s)**
 4) Once after completion of Application creation, click on the Application Tile from Applications → <Application Name>
 
-![](Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.003.jpeg)
+![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.003.jpeg)
 
 6) This will open Text Gen UI in a new browser window
 
-![](Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.004.jpeg)
+![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.004.jpeg)
 
 5. How to download and use Machine learning <a name="_page6_x105.75_y98.45"></a>models from external sources
 
@@ -113,7 +112,7 @@ Follow this below steps to download and load a custom model from Hugging Face in
 1. Locate the "Download custom model or LoRA" edit box.
 1. Enter the Hugging Face username/model path, for example, "daryl149/llama-2-7b-chat-hf."
 
-![](Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.007.jpeg)
+![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.007.jpeg)
 
 3. Press Download Button:![ref2]
    1. After entering the model path, click the "Download" button.
@@ -128,9 +127,9 @@ b.
 
 a. From the "Model" dropdown list, select the custom model you just downloaded. It should now be visible among the available models.
 
-![](Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.008.jpeg)
+![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.008.jpeg)
 
-6. Press Load Button:![](Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.009.png)
+6. Press Load Button:![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.009.png)
    1. Once you've selected the model, press the "Load" button. This action loads the model into the application.
 6. Switch to the Chat Tab:![ref1]
    1. After successfully loading the model, navigate to the "Chat" tab within the UI. This is where you can interact with the model.
@@ -138,9 +137,9 @@ a. From the "Model" dropdown list, select the custom model you just downloaded. 
 1. In the "Chat" tab, you can send messages as prompts to the loaded model.
 1. Start sending messages to test the text generation capabilities. The model will respond based on the prompts you provide.
 
-![](Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.010.jpeg)
+![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.010.jpeg)
 
-By following these steps, you can seamlessly download, load, and test a custom model from Hugging Face in your Text Generation UI. This process enables you to leverage specific language models for various text generation tasks.![](Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.011.png)
+By following these steps, you can seamlessly download, load, and test a custom model from Hugging Face in your Text Generation UI. This process enables you to leverage specific language models for various text generation tasks.![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.011.png)
 
 6. How to use REST APIs to access Text <a name="_page8_x105.75_y611.00"></a>Generation features
 
@@ -215,7 +214,7 @@ The following steps are mandatory inorder for the Training of the Model to take 
 
 5. Then navigate to the “Training” Tab and first fill up the name of the Lora you would like the training to be stored as.
 
-![](Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.013.png)
+![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.013.png)
 
 6. If you’d like to modify the parameters of the Training please do as required.
 7. At the end you will see the “Formatted Dataset” Tab, there in “Dataset” box select the input dataset which you have placed in step B.
@@ -224,7 +223,7 @@ The following steps are mandatory inorder for the Training of the Model to take 
 7. Next you have the Advanced settings options which is optional, if you have a certain requirement.
 7. Next click on “Start Lora Training” button.
 
-![](Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.014.jpeg)
+![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.014.jpeg)
 
 12. Once the training is complete you can see there is a folder created in “loras” Folder in the project files and you can see the folder name matching to the name given in Step E.
 12. You can then go back to the “Model” tab and on the right side you should see the “Lora(s)” dropdown box. Once you have selected that you should be able to see loras and you should find the lora matching the name on step E.
@@ -264,7 +263,7 @@ Embrace this revolution, and stay tuned for more on these remarkable tools, as t
 - [Cloudera CML](https://docs.cloudera.com/machine-learning/cloud/product/topics/ml-product-overview.html)
 - [Huggingface models](https://huggingface.co/models)
 
-[ref1]: Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.005.png
-[ref2]: Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.006.png
-[ref3]: Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.012.png
+[ref1]: /assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.005.png
+[ref2]: /assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.006.png
+[ref3]: /assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.012.png
 
