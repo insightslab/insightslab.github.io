@@ -178,13 +178,14 @@ The following steps are mandatory inorder for the Training of the Model to take 
 1. First place the dataset format file in json if you plan to use a specific format for training the model under “training/formats” location. For example here is a sample
 
    format:
-
+```javascript
 {
 
 "instruction,output": "User: %instruction%\nAssistant: %output%", "instruction,input,output": "User: %instruction%: %input%\nAssistant: %output%" }
+```
 
 2. Then place the dataset in “training/datasets” which matches the format file you have inserted in the above step. For example the dataset which matches the above example format:
-
+```javascript
    [
 
 {
@@ -208,7 +209,7 @@ The following steps are mandatory inorder for the Training of the Model to take 
 }
 
 ]
-
+```
 3. On the application select the “Model” tab and please select the model with which you would like to perform the training on. If you would like to Download a Model of your choice use the “Download custom model or LoRA” option and then download the model.
 4. Once the Model is selected and all the necessary parameters related to the model are tuned, then load the model.
 
