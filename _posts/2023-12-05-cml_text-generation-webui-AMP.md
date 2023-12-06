@@ -35,7 +35,7 @@ Here are some of the benefits of using Cloudera CML AMPs:
 
 Cloudera CML AMPs are a powerful tool that can help data scientists build, deploy, and monitor ML applications faster and more easily.
 
-##2. What is Text-Generation-WebUI
+## 2. What is Text-Generation-WebUI
 
 Text Generation Web UI is a powerful and user-friendly tool for interacting with large language models (LLMs). It is built on top of the Gradio framework, which provides a simple and intuitive interface for creating and deploying machine learning models on the web.
 
