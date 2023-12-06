@@ -108,40 +108,40 @@ Create a CML project :
 
 Follow the below steps to download and load a custom model from Hugging Face into a Text Generation UI. Here's a step-by-step guide for this process
 
-1. Switch to the Model Tab:![ref1](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.005.png)
+1. Switch to the Model Tab: 
    1. Navigate to the "Model" tab within your Text Generation UI.
-1. Enter Hugging Face Username/Model Path:![ref2](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.006.png)
+1. Enter Hugging Face Username/Model Path: 
 1. Locate the "Download custom model or LoRA" edit box.
 1. Enter the Hugging Face username/model path, for example, "daryl149/llama-2-7b-chat-hf."
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.007.jpeg)
 
-3. Press the Download Button:![ref2](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.006.png)
+3. Press the Download Button:
    1. After entering the model path, click the "Download" button.
    1. The application will initiate the download process. Be patient as this may take a couple of minutes, depending on the model size and your internet connection speed.
-3. Refresh Model Lists:![ref2](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.006.png)
+3. Refresh Model Lists:
 
 a. After the download is complete, refresh the list of available models. This step ensures that the newly downloaded model is recognized by the UI.
 
 b.
 
-5. Select the Newly Downloaded Model:![ref2](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.006.png)
+5. Select the Newly Downloaded Model:
 
 a. From the "Model" dropdown list, select the custom model you just downloaded. It should now be visible among the available models.
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.008.jpeg)
 
-6. Press Load Button:![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.009.png)
+6. Press Load Button:
    1. Once you've selected the model, press the "Load" button. This action loads the model into the application.
-6. Switch to the Chat Tab:![ref1](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.005.png)
+6. Switch to the Chat Tab: 
    1. After successfully loading the model, navigate to the "Chat" tab within the UI. This is where you can interact with the model.
-6. Send Messages to Test the Text Generation Application:![ref2](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.005.png)
+6. Send Messages to Test the Text Generation Application:
 1. In the "Chat" tab, you can send messages as prompts to the loaded model.
 1. Start sending messages to test the text generation capabilities. The model will respond based on the prompts you provide.
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.010.jpeg)
 
-By following these steps, you can seamlessly download, load, and test a custom model from Hugging Face in your Text Generation UI. This process enables you to leverage specific language models for various text-generation tasks.![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.011.png)
+By following these steps, you can seamlessly download, load, and test a custom model from Hugging Face in your Text Generation UI. This process enables you to leverage specific language models for various text-generation tasks.
 
 ## 6. How to use REST APIs to access Text <a name="_page8_x105.75_y611.00"></a>Generation features
 
