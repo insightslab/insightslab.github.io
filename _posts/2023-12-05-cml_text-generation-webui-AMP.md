@@ -90,7 +90,9 @@ Text generation UIs can be used for a variety of purposes, such as:
 ### Create a CML project :
 
 1) Login to CML
+   
 2) Get the AMP project URL from git : [https://github.com/insightslab/cml_text-generation-webui-AMP ](https://github.com/insightslab/cml_text-generation-webui-AMP)/
+   
 3) Create a new CML project and fill the AMP git URL as shown below
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.002.jpeg)
