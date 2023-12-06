@@ -81,7 +81,7 @@ Text generation UIs can be used for a variety of purposes, such as:
 - Answering questions in a comprehensive and informative way.
 - Creating chatbots.
 
-![](Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.001.png)
+![](https://github.com/insightslab/insightslab.github.io/blob/master/_posts/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.001.png)
 
 4. How to deploy Text-Generation-WebUI as <a name="_page3_x105.75_y390.73"></a>Cloudera CML AMP
 
