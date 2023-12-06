@@ -2,7 +2,7 @@
 title: "Cloudera Text Generation Applied ML Prototypes"
 layout: post
 ---
-##Introduction
+## Introduction
 
 
 
@@ -18,7 +18,7 @@ In this blog post we will describe the following aspects of CML APM, [Text-Gener
 1. [How to use REST APIs to access Text Generation features](#_page8_x105.75_y611.00)
 1. [How to Train new machine learning models to meet your requirements](#_page9_x105.75_y627.43)
    
-##1. What is Cloudera CML AMP (AMPs)
+##  1. What is Cloudera CML AMP (AMPs)
 
 Cloudera Machine Learning (CML) AMP stands for Applied Machine Learning Prototypes. It is a collection of pre-built ML projects that can be deployed with one click directly from Cloudera Machine Learning. AMPs enable data scientists to go from an idea to a fully working ML use case in a fraction of the time.
 
@@ -65,7 +65,7 @@ Key features and capabilities of this tool, including:
 - Training models using customer dataset
 - Output Formats: Mention the supported output formats, such as plain text, JSON, or HTML.
   
-##3. Main<a name="_page2_x105.75_y450.02"></a> features of Text-Generation-WebUI
+## 3. Main<a name="_page2_x105.75_y450.02"></a> features of Text-Generation-WebUI
 
 It is a Gradio-based web UI for Large Language Models.
 
@@ -85,7 +85,7 @@ Text generation UIs can be used for a variety of purposes, such as:
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.001.png)
 
-##4. How to deploy Text-Generation-WebUI as <a name="_page3_x105.75_y390.73"></a>Cloudera CML AMP
+## 4. How to deploy Text-Generation-WebUI as <a name="_page3_x105.75_y390.73"></a>Cloudera CML AMP
 
 Create a CML project :
 
@@ -104,7 +104,7 @@ Create a CML project :
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.004.jpeg)
 
-##5. How to download and use Machine learning <a name="_page6_x105.75_y98.45"></a>models from external sources
+## 5. How to download and use Machine learning <a name="_page6_x105.75_y98.45"></a>models from external sources
 
 Follow this below steps to download and load a custom model from Hugging Face into a Text Generation UI. Here's a step-by-step guide for this process
 
@@ -143,7 +143,7 @@ a. From the "Model" dropdown list, select the custom model you just downloaded. 
 
 By following these steps, you can seamlessly download, load, and test a custom model from Hugging Face in your Text Generation UI. This process enables you to leverage specific language models for various text generation tasks.![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.011.png)
 
-##6. How to use REST APIs to access Text <a name="_page8_x105.75_y611.00"></a>Generation features
+## 6. How to use REST APIs to access Text <a name="_page8_x105.75_y611.00"></a>Generation features
 
 REST API support on a text generation UI allows developers to interact with the UI programmatically. This can be useful for a variety of purposes, such as:
 
@@ -171,7 +171,7 @@ Overall, REST API support on a text generation UI is a valuable feature that can
 
 [Python Code example](https://gist.github.com/vinodkc/a38447d770b72aaa6e7fce580bf532cd) on how to use REST API to access Chat features
 
-##7. How to Train new machine learning models <a name="_page9_x105.75_y627.43"></a>to meet your requirements
+## 7. How to Train new machine learning models <a name="_page9_x105.75_y627.43"></a>to meet your requirements
 
 The following steps are mandatory inorder for the Training of the Model to take place:
 
