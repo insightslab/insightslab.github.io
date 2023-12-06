@@ -98,6 +98,7 @@ Text generation UIs can be used for a variety of purposes, such as:
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.002.jpeg)
 
 4) Click the ‘Create Project’ button and it will take around 15 to 20 mins to create the Text Gen UI application. This Application requires atleast 1 GPU , hence ensure to select a **CML workspace with GPU(s)**
+   
 5) Once after completion of Application creation, click on the Application Tile from Applications → <Application Name>
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.003.jpeg)
