@@ -87,16 +87,16 @@ Text generation UIs can be used for a variety of purposes, such as:
 
 ## 4. How to deploy Text-Generation-WebUI as <a name="_page3_x105.75_y390.73"></a>Cloudera CML AMP
 
-Create a CML project :
+### Create a CML project :
 
 1) Login to CML
-1) Get the AMP project URL from git : [https://github.com/insightslab/cml_text-generation-webui-AMP ](https://github.com/insightslab/cml_text-generation-webui-AMP)// Todo. change to a public GitHub URL
-1) Create a new CML project and fill the AMP git URL as shown below
+2) Get the AMP project URL from git : [https://github.com/insightslab/cml_text-generation-webui-AMP ](https://github.com/insightslab/cml_text-generation-webui-AMP)/
+3) Create a new CML project and fill the AMP git URL as shown below
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.002.jpeg)
 
 4) Click the ‘Create Project’ button and it will take around 15 to 20 mins to create the Text Gen UI application. This Application requires atleast 1 GPU , hence ensure to select a **CML workspace with GPU(s)**
-4) Once after completion of Application creation, click on the Application Tile from Applications → <Application Name>
+5) Once after completion of Application creation, click on the Application Tile from Applications → <Application Name>
 
 ![](/assets/images/Aspose.Words.043092e4-3346-450a-b951-f8f0357cc96a.003.jpeg)
 
@@ -237,7 +237,7 @@ The following steps are mandatory in order for the Training of the Model to take
 
 Note: As of now the training is limited to a particular model “Tap-M/Luna-AI-Llama2-Uncensored”. This works to train the model as discussed in [issue](https://github.com/oobabooga/text-generation-webui/issues/3691).
 
-8. Conclusion
+## 8. Conclusion
 
 As we conclude our exploration of Cloudera CML AMP and Text-Generation-WebUI, it's essential to reflect on the transformative potential of these tools.
 
@@ -261,7 +261,7 @@ Embrace this revolution, and stay tuned for more on these remarkable tools, as t
 
 .
 
-9. Additional Resources
+## 9. Additional Resources
 - [Text-generation-webui](https://github.com/oobabooga/text-generation-webui#text-generation-web-ui)
 - [Cloudera CML](https://docs.cloudera.com/machine-learning/cloud/product/topics/ml-product-overview.html)
 - [Huggingface models](https://huggingface.co/models)
